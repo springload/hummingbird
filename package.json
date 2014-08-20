@@ -1,0 +1,27 @@
+{
+  "name": "hummingbird-framework",
+  "version": "0.0.1",
+  "dependencies": {
+    "marionette": "0.0.0",
+    "jquery": "^2.1.1",
+    "backbone": "^1.1.2",
+    "underscore": "^1.6.0",
+    "nunjucks": "^1.0.7",
+    "backbone.marionette": "^2.1.0",
+    "nunjucksify": "^0.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-sourcemaps": "^1.1.1",
+    "gulp-util": "^3.0.0",
+    "gulp-browserify": "^0.5.0",
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3",
+    "backbone.marionette": "^2.1.0",
+    "jquery": "^2.1.1",
+    "backbone": "^1.1.2",
+    "gulp-mocha-phantomjs": "^0.5.0",
+    "gulp-concat": "^2.3.4"
+  }
+}
