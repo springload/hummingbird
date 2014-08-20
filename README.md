@@ -42,7 +42,7 @@ Push a view with a transition
 ```javascript
     var view = new Hummingbird.StackView();
     view.push(new Marionette.ItemView({
-            template: Templates["app/templates/intro.hb"]
+            template: require("app/templates/intro.nunj")
         }),
         {
             transition: "slideLeft"
