@@ -1,7 +1,46 @@
-# Hummingbird Core
+# Hummingbird
 
-- Now a node package
-- Contains unit tests
+A collection of Backbone Marionette components for rapid JS-powered mobile app development.
+
+* Build tablet and mobile apps with one codebase
+* Flexible view transitions
+* Easy install via npm
+
+
+## Docs
+
+### Core
+* Browser capabilities
+* Transport
+* AppLayout
+
+
+### Models
+* DualStorage model
+
+### Layouts
+* SplitView
+* StackView
+
+### Views
+* View
+* ModalView
+* TransitionView
+* NotificationView
+* SearchFormView
+* TabView
+
+### Regions
+* TransitionRegion
+
+### UI
+* Orientation
+* Carousel
+* Transition
+* Animation
+
+
+
 
 
 ## Using in your project
