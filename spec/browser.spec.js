@@ -25,12 +25,23 @@ describe('Browser', function () {
     });
 
 
-    describe("#isFileProtocol", function() {
+    describe("#isFileProtocol()", function() {
         it('should return true if the browser is using the file:// protocol', function () {
             if (document.URL.indexOf( 'http://' ) === -1 && document.URL.indexOf( 'https://' ) === -1) {
                 expect(Browser.isFileProtocol()).to.equal(true);
             } else {
                 expect(Browser.isFileProtocol()).to.equal(false);
+            }
+        });
+    });
+
+
+    describe("#touch()", function() {
+        it('should return true if the browser supports touch events ', function () {
+            if ("ontouchstart" in window) {
+                expect(Browser.touch()).to.equal(true);
+            } else {
+                expect(Browser.touch()).to.equal(false);
             }
         });
     });

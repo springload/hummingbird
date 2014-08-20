@@ -1,4 +1,4 @@
 bower_components
 node_modules
 test/spec/*
-test/testapp.js
+test/harness.js
