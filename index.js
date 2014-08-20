@@ -25,5 +25,6 @@ module.exports = {
     TransitionView: require("./lib/view.transition"),
     TabView: require("./lib/view.tab"),
     TabItemView: require("./lib/view.tabItem"),
-    TitleView: require("./lib/view.title")
+    TitleView: require("./lib/view.title"),
+    Renderer: require("./lib/Render")
 };
