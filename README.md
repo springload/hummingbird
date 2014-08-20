@@ -30,6 +30,8 @@ A collection of Backbone Marionette components for rapid JS-powered mobile app d
 * NotificationView
 * SearchFormView
 * TabView
+* EmptyView
+* FetchingView
 
 ### Regions
 * TransitionRegion
