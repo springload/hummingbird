@@ -1,9 +1,7 @@
 # Hummingbird Core
 
-Making it a node package to make it easy to require via browserify
-
-- Adding unit tests
-
+- Now a node package
+- Contains unit tests
 
 
 ## Using in your project
@@ -25,6 +23,45 @@ var myCoolView = new View({
 });
 
 ```
+
+Then you can start using hummingbird components right away.
+
+```javascript
+    var view = new Hummingbird.StackView();
+    view.push(new Marionette.ItemView({template: require("templates/intro.nunj") }));
+    view.pop();
+```
+
+
+## Components
+
+### TransitionRegion
+
+Push a view with a transition
+
+```javascript
+    var view = new Hummingbird.StackView();
+    view.push(new Marionette.ItemView({
+            template: Templates["app/templates/intro.hb"]
+        }),
+        {
+            transition: "slideLeft"
+        });
+    view.pop();
+```
+
+
+### EmptyView
+
+A default view for when a collectionview is empty.
+
+
+### FetchingView
+
+A view that shows automatically while fetching a collection
+
+
+
 
 
 ## Testing this repo
